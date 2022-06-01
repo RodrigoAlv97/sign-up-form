@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: roboto;
+}
+
+a{
+    color: white;
+}
+
+label{
+    font-weight: 300;
+    color: #3c3c3c;
+}
+
+input{
+    height: 30px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: #E5E7EB 1px solid;
+}
+
+input:focus{
+    border: rgb(160, 160, 255) 1px  solid;
+    box-shadow: rgb(228, 228, 228) 4px 4px;
+}
+
+button{
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: #b4b4b4;
+    border: 0  ;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold   ;
+    box-shadow: rgba(35, 35, 35, 0.06) 4px 4px;
+    outline: none;
+}
+
+#mainContainer{
+    width: 1400px;
+    height: 100vh;
+    background-color: #f7f7f7;
+    display: flex;
+    padding: 0;
+}
+
+#bgImage{
+    width: 500px;
+    height: 100vh;
+}
+
+#logoContainer{
+    font-family: norse;
+    font-weight: bold;
+    font-size: 5rem;
+    background-color: rgba(0, 0, 0, 0.549);
+    position: absolute;
+    top: 250px;
+    color: white;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    width: 60px;
+    height: 80px;
+}
+
+#credits{
+    position: absolute;
+    bottom: 5px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+#formContainer{
+    display: flex;
+    flex-direction: column;  
+}
+
+#header{
+    color: black;
+    font-size: 24px;
+    font-weight: 450;
+    padding: 40px;
+    
+}
+
+#input{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 60px;
+    padding: 10px;
+}
+
+
+#buttom{  
+    display: flex;
+    padding: 40px;
+    height: 100%;
+    padding-top: 0px;
+}
+
+#login{
+    color: #5f5f5f;
+    text-decoration:none;
+}
+
+
+#formOne , #formTwo , #formThree{
+    display: flex ;
+    
+}
+
+
+#button{
+    padding: 10px;
+    background-color: #f4f4f4;
+    padding: 40px;
+}
+
+#formDiv{
+    background-color: white;
+    padding: 40px;
+}
+
+
+
+

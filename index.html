@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="mainContainer">
+      <div id="imgContainer">
+        <div id="img">
+          <img id="bgImage" src="./images/bg-image.jpg" alt="" />
+
+          <div id="logoContainer">
+            <img id="logo" src="./images/odin.png" alt="" />Odin
+          </div>
+
+          <div id="credits">
+            <p>
+              Photo by <a href="https://unsplash.com/es/fotos/CZjjHuPCvVQ"
+                >Yann Lauener</a
+              >
+              on <a href="https://unsplash.com/">Unsplash</a>
+            </p>
+
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <div id="formContainer">
+        <div id="header">
+          <p>
+            This is not real online service! You know you need something like
+            this in your life to help you realize your deepest dreams.
+            <br />
+            Sign up now to get started.
+          </p>
+
+          <p>You know you want to.</p>
+        </div>
+
+
+          <form id="form" action="#">
+            <div id="formDiv">  
+
+            <div id="formOne">
+                <div id="input">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" />
+                  </div>
+      
+                  <div id="input">
+                    <label for="LastName">Last Name:</label>
+                    <input type="text" id="LastName" />
+                  </div>
+              
+
+            </div>    
+
+            <div id="formTwo">
+                <div id="input">
+                    <label for="user_email">Email Address:</label>
+                    <input type="email" id="user_email" name="email" />
+                  </div>
+      
+                  <div id="input">
+                    <label for="phone">Phone Number:</label>
+                    <input type="number" id="phone" name="phone" />
+                  </div>
+            </div>
+      
+            <div id="formThree">
+
+            <div id="input">
+                <label for="user_password">Password:</label>
+                <input type="password" id="user_password" name="password" />
+              </div>
+  
+              <div id="input">
+                <label for="user_password">Password:</label>
+                <input type="password" id="user_password" name="password" />
+              </div>
+            </div>
+
+        </div>
+
+        <div id="button">
+            <button>Create Acount   </button>
+        </div>
+          </form>
+        
+        <div id="buttom">
+         
+         <p>Already hace an account? <a id="login" href="#">Log in</a></p> 
+        </div>
+
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
